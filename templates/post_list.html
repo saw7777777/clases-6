@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1> listado de posts</h1>
+{% extends "_base.html" %}
+
+{% block content %}
     <ul>
         {% for publication in post_list %}
             <li>
@@ -15,5 +9,5 @@
             </li>
         {% endfor %}
     </ul>
-</body>
-</html>
+    
+{% endblock content %}
