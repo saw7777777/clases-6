@@ -6,4 +6,5 @@
     <p>{{ post.author}}</p>
     <p>{{ post.body }}</p>
     <p>{{ post.created_at }}</p>
+    <a href="{% url 'post-edit' post.id %}">editar publicacion</a>
 {% endblock %}
