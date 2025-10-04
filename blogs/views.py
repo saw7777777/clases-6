@@ -6,7 +6,7 @@ from django.views.generic.edit import (
                                     UpdateView,
                                     DeleteView
                                     )
-from django.shortcuts import reverse_lazy
+
 
 # Create your views here.
 
